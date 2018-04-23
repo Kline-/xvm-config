@@ -419,8 +419,8 @@
       // Maximum width of the player name column, Default is 158.
       "nickMaxWidth": 158,
       // Display format for player nickname (macros allowed, see macros.txt).
-      "nickFormatLeft": "<font color='{{c:winrate}}' alpha='{{alive?#FF|#80}}'>{{winrate%2d~%|--%}}</font> <font color='{{c:r}}' alpha='{{alive?#FF|#80}}'>{{name%.10s~..}}</font> <font alpha='#A0'>{{clan}}</font>",
-      "nickFormatRight": "<font alpha='#A0'>{{clan}}</font> <font color='{{c:r}}' alpha='{{alive?#FF|#80}}'>{{name%.10s~..}}</font> <font color='{{c:winrate}}' alpha='{{alive?#FF|#80}}'>{{winrate%2d~%|--%}}</font>",
+      "nickFormatLeft": "<font color='{{c:winrate}}' alpha='{{alive?#FF|#80}}'>{{winrate%2d~%|--%}}</font> <font alpha='{{alive?#FF|#80}}'>{{name%.10s~..}}</font> <font alpha='#A0'>{{clan}}</font>",
+      "nickFormatRight": "<font alpha='#A0'>{{clan}}</font> <font alpha='{{alive?#FF|#80}}'>{{name%.10s~..}}</font> <font alpha='{{alive?#FF|#80}}'>{{winrate%2d~%|--%}}</font>",
       // Shadow for player name field (default null = no shadow, as in vanillas client).
       "nickShadowLeft": null,
       "nickShadowRight": null,
@@ -430,8 +430,8 @@
       // Width of the vehicle name column. Default is 72.
       "vehicleWidth": 72,
       // Display format for vehicle name (macros allowed, see macros.txt).
-      "vehicleFormatLeft": "{{vehicle}}",
-      "vehicleFormatRight": "{{vehicle}}",
+      "vehicleFormatLeft": "<font color='{{c:t-winrate}}' alpha='{{alive?#FF|#80}}'>{{vehicle}}</font>",
+      "vehicleFormatRight": "<font color='{{c:t-winrate}}' alpha='{{alive?#FF|#80}}'>{{vehicle}}</font>",
       // Shadow for vehicle name field (default null = no shadow, as in vanillas client).
       "vehicleShadowLeft": null,
       "vehicleShadowRight": null,
