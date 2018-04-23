@@ -420,7 +420,7 @@
       "nickMaxWidth": 158,
       // Display format for player nickname (macros allowed, see macros.txt).
       "nickFormatLeft": "<font color='{{c:winrate}}' alpha='{{alive?#FF|#80}}'>{{winrate%2d~%|--%}}</font> <font alpha='{{alive?#FF|#80}}'>{{name%.10s~..}}</font> <font alpha='#A0'>{{clan}}</font>",
-      "nickFormatRight": "<font alpha='#A0'>{{clan}}</font> <font alpha='{{alive?#FF|#80}}'>{{name%.10s~..}}</font> <font alpha='{{alive?#FF|#80}}'>{{winrate%2d~%|--%}}</font>",
+      "nickFormatRight": "<font alpha='#A0'>{{clan}}</font> <font alpha='{{alive?#FF|#80}}'>{{name%.10s~..}}</font> <font color='{{c:winrate}}' alpha='{{alive?#FF|#80}}'>{{winrate%2d~%|--%}}</font>",
       // Shadow for player name field (default null = no shadow, as in vanillas client).
       "nickShadowLeft": null,
       "nickShadowRight": null,
