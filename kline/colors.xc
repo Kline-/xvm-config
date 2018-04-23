@@ -1,46 +1,37 @@
 ﻿/**
  * Color settings.
- * Настройки цветов.
  */
 {
   // Color values for substitutions.
-  // Значения цветов для подстановок.
   "def": {
-    "al": "0x96FF00", // ally       / союзник
-    "sq": "0xFFB964", // squadman   / взводный
-    "tk": "0x00EAFF", // teamKiller / тимкиллер
-    "en": "0xF50800", // enemy      / противник
-    "pl": "0xFFDD33", // player     / игрок
+    "al": "0x96FF00", // ally
+    "sq": "0xFFB964", // squadman
+    "tk": "0x00EAFF", // teamKiller
+    "en": "0xF50800", // enemy
+    "pl": "0xFFDD33", // player
     // Dynamic color by various statistical parameters.
-    // Динамический цвет по различным статистическим показателям.
     "colorRating": {
-      "very_bad":     "0xFE0E00",   // very bad   / очень плохо
-      "bad":          "0xFE7903",   // bad        / плохо
-      "normal":       "0xF8F400",   // normal     / средне
-      "good":         "0x60FF00",   // good       / хорошо
-      "very_good":    "0x02C9B3",   // very good  / очень хорошо
-      "unique":       "0xD042F3"    // unique     / уникально
+      "very_bad":     "0xFE0E00",   // very bad
+      "bad":          "0xFE7903",   // bad
+      "normal":       "0xF8F400",   // normal
+      "good":         "0x60FF00",   // good
+      "very_good":    "0x02C9B3",   // very good
+      "unique":       "0xD042F3"    // unique
     },
     // Dynamic color by remaining health points.
-    // Динамический цвет по оставшемуся запасу прочности.
     "colorHP": {
-      "very_low":         "0xFF0000",   // very low       / очень низкий
-      "low":              "0xDD4444",   // low            / низкий
-      "average":          "0xFFCC22",   // average        / средний
-      "above_average":    "0xFCFCFC"    // above-average  / выше среднего
+      "very_low":         "0xFF0000",   // very low
+      "low":              "0xDD4444",   // low
+      "average":          "0xFFCC22",   // average
+      "above_average":    "0xFCFCFC"    // above-average
     }
   },
   "colors": {
     // System colors.
-    // Системные цвета.
     "system": {
       // Format: object_state
       // Object:      ally, squadman, teamKiller, enemy
       // State:       alive, dead, blowedup
-      // ----
-      // Формат: объект_состояние
-      // Объект:      ally - союзник, squadman - взводный, teamKiller - тимкиллер, enemy - противник
-      // Состояние:   alive - живой, dead - мертвый, blowedup - взорвана боеукладка
       "ally_alive":          ${"def.al"},
       "ally_dead":           "0x009900",
       "ally_blowedup":       "0x007700",
@@ -57,36 +48,26 @@
       "enemy_base":          ${"def.en"}
     },
     // Dynamic color by damage kind.
-    // Динамический цвет по типу урона.
     "dmg_kind": {
-      "shot": "0xFFAA55",            // shot / попадание
-      "fire": "0xFF6655",            // fire / пожар
-      "ramming": "0x998855",         // ramming / таран
-      "world_collision": "0x228855", // world collision / столкновение с объектами, падение
-      "death_zone": "0xCCCCCC",      // death_zone / опасная зона
-      "drowning": "0xCCCCCC",        // drowning / затопление
-      "other": "0xCCCCCC"            // other / другое
+      "shot": "0xFFAA55",            // shot
+      "fire": "0xFF6655",            // fire
+      "ramming": "0x998855",         // ramming
+      "world_collision": "0x228855", // world collision
+      "death_zone": "0xCCCCCC",      // death_zone
+      "drowning": "0xCCCCCC",        // drowning
+      "other": "0xCCCCCC"            // other
     },
     // Dynamic color by vehicle type.
-    // Динамический цвет по типу техники.
     "vtype": {
-      // Цвет для легких танков.
       "LT":  "0xA2FF9A",
-      // Цвет для средних танков.
       "MT":  "0xFFF198",
-      // Цвет для тяжелых танков.
       "HT":  "0xFFACAC",
-      // Цвет для арты.
       "SPG": "0xEFAEFF",
-      // Цвет для ПТ.
       "TD":  "0xA0CFFF",
-      // Цвет для премиумной техники.
       "premium": "0xFFCC66",
-      // Включить/выключить использование премиумного цвета.
-      "usePremiumColor": false
+      "usePremiumColor": true
     },
     // Dynamic color by spotted status
-    // Динамический цвет по статусу засвета
     "spotted": {
       "neverSeen":      "0x000000",
       "lost":           "0xD9D9D9",
@@ -98,24 +79,17 @@
       "dead_arty":      "0xFFFFFF"
     },
     // HP color depending on the ratio of ally and enemy teams hp.
-    // Цвет ХП в зависимости от отношения хп союзной и вражеской команд.
     "totalHP": {
       "bad":     "0xFF0000",
       "neutral": "0xFFFFFF",
       "good":    "0x00FF00"
     },
     // Color settings for damage.
-    // Настройки цвета для урона.
     "damage": {
       // Format: src_dst_type.
       // Src:  ally, squadman, enemy, unknown, player.
       // Dst:  ally, squadman, allytk, enemytk, enemy.
       // Type: hit, kill, blowup.
-      // ----
-      // Формат: источник_получатель_тип.
-      // Источник:   ally - союзник, squadman - взводный, enemy - противник, unknown - неизвестный (не виден игроку), player - игрок.
-      // Получатель: ally, squadman, enemy, allytk - союзник тимкиллер, enemytk - противник тимкиллер.
-      // Тип:        hit - попадание, kill - убийство, blowup - боеукладка.
       "ally_ally_hit":              ${"def.tk"},
       "ally_ally_kill":             ${"def.tk"},
       "ally_ally_blowup":           ${"def.tk"},
@@ -193,10 +167,7 @@
       "player_enemytk_blowup":      ${"def.pl"}
     },
     // Values below should be from smaller to larger.
-    // Значения ниже должны быть от меньшего к большему.
-    // ----
     // Dynamic color by remaining absolute health.
-    // Динамический цвет по оставшемуся здоровью.
     "hp": [
       { "value": 200,  "color": ${"def.colorHP.very_low"     } }, // color for HP <= 200
       { "value": 400,  "color": ${"def.colorHP.low"          } }, // color for HP <= 400
@@ -204,7 +175,6 @@
       { "value": 9999, "color": ${"def.colorHP.above_average"} }  // color for HP > 1000
     ],
     // Dynamic color by remaining health percent.
-    // Динамический цвет по проценту оставшегося здоровья.
     "hp_ratio": [
       { "value": 10.4, "color": ${"def.colorHP.very_low"     } }, // color for HP <= 10%
       { "value": 25.4, "color": ${"def.colorHP.low"          } }, // color for HP <= 25%
@@ -212,7 +182,6 @@
       { "value": 100,  "color": ${"def.colorHP.above_average"} }  // color for HP > 50%
     ],
     // Dynamic color for XVM Scale
-    // Динамический цвет по шкале XVM
     // https://koreanrandom.com/forum/topic/2625-/
     "x": [
       { "value": 16.4, "color": ${"def.colorRating.very_bad" } }, // 00 - 16 - very bad  (20% of players)
@@ -223,14 +192,10 @@
       { "value": 999,  "color": ${"def.colorRating.unique"   } }  // 93 - XX - unique    (better than 99.9% of players)
     ],
     // Current scales values ​​for ratings are listed on this page: https://modxvm.com/en/ratings/xvm-scale/colors/
-    // Текущие граничные значения для рейтингов указаны на данной странице: https://modxvm.com/ru/ratings/xvm-scale/colors/
     //
     // Custom dynamic colors by ratings.
     // If you want use your own color scales,
     // uncomment this block and replace "rating_name" to one of this values: "eff", "wn8", "wtr", "wgr"
-    // Динамический цвет по указанному рейтингу.
-    // Если вы хотите использовать свои собственные границы цветов вместо стандартных,
-    // раскомментируйте блок и замените "rating_name" на одно из следующих значений: "eff", "wn8", "wtr", "wgr"
     // "rating_name": [
     //  { "value": 500,   "color": ${"def.colorRating.very_bad" } }, //    0 - 500   - very bad
     //  { "value": 1000,  "color": ${"def.colorRating.bad"      } }, //  501 - 1000  - bad
@@ -240,7 +205,6 @@
     //  { "value": 99999, "color": ${"def.colorRating.unique"   } }  // 5001 - 99999 - unique
     // ],
     // Dynamic color by win percent
-    // Динамический цвет по проценту побед
     "winrate": [
       { "value": 46.49, "color": ${"def.colorRating.very_bad" } }, //  0   - 46.5  - very bad  (20% of players)
       { "value": 48.49, "color": ${"def.colorRating.bad"      } }, // 46.5 - 48.5  - bad       (better than 20% of players)
@@ -250,7 +214,6 @@
       { "value": 100,   "color": ${"def.colorRating.unique"   } }  // 64.5 - 100   - unique    (better than 99.9% of players)
     ],
     // Dynamic color by kilo-battles
-    // Динамический цвет по количеству кило-боев
     "kb": [
       { "value": 2,   "color": ${"def.colorRating.very_bad" } },  //  0 - 2
       { "value": 6,   "color": ${"def.colorRating.bad"      } },  //  3 - 6
@@ -260,7 +223,6 @@
       { "value": 999, "color": ${"def.colorRating.unique"   } }   // 44 - *
     ],
     // Dynamic color by average level of player tanks
-    // Динамический цвет по среднему уровню танков игрока
     "avglvl": [
       { "value": 1,  "color": ${"def.colorRating.very_bad" } },
       { "value": 2,  "color": ${"def.colorRating.bad"      } },
@@ -270,7 +232,6 @@
       { "value": 10, "color": ${"def.colorRating.unique"   } }
     ],
     // Dynamic color by battles on current tank
-    // Динамический цвет по количеству боев на текущем танке
     "t_battles": [
       { "value": 99,    "color": ${"def.colorRating.very_bad" } }, //    0 - 99
       { "value": 249,   "color": ${"def.colorRating.bad"      } }, //  100 - 249
@@ -280,7 +241,6 @@
       { "value": 99999, "color": ${"def.colorRating.unique"   } }  // 1800 - *
     ],
     // Dynamic color by average damage on current tank
-    // Динамический цвет по среднему урону за бой на текущем танке
     "tdb": [
       { "value": 499,  "color": ${"def.colorRating.very_bad" } },
       { "value": 749,  "color": ${"def.colorRating.bad"      } },
@@ -290,7 +250,6 @@
       { "value": 9999, "color": ${"def.colorRating.unique"   } }
     ],
     // Dynamic color by average damage efficiency on current tank
-    // Динамический цвет по эффективности урона за бой на текущем танке
     "tdv": [
       { "value": 0.5, "color": ${"def.colorRating.very_bad" } },
       { "value": 0.7, "color": ${"def.colorRating.bad"      } },
@@ -300,7 +259,6 @@
       { "value": 15,  "color": ${"def.colorRating.unique"   } }
     ],
     // Dynamic color by average frags per battle on current tank
-    // Динамический цвет по среднему количеству фрагов за бой на текущем танке
     "tfb": [
       { "value": 0.5, "color": ${"def.colorRating.very_bad" } },
       { "value": 0.7, "color": ${"def.colorRating.bad"      } },
@@ -310,7 +268,6 @@
       { "value": 15,  "color": ${"def.colorRating.unique"   } }
     ],
     // Dynamic color by average number of spotted enemies per battle on current tank
-    // Динамический цвет по среднему количеству засвеченных врагов за бой на текущем танке
     "tsb": [
       { "value": 0.5, "color": ${"def.colorRating.very_bad" } },
       { "value": 0.7, "color": ${"def.colorRating.bad"      } },
@@ -320,7 +277,6 @@
       { "value": 15,  "color": ${"def.colorRating.unique"   } }
     ],
     // Dynamic color by WN8 effective damage
-    // Динамический цвет по эффективному урону по WN8
     "wn8effd": [
       { "value": 0.5, "color": ${"def.colorRating.very_bad" } },
       { "value": 0.7, "color": ${"def.colorRating.bad"      } },
@@ -330,7 +286,6 @@
       { "value": 15,  "color": ${"def.colorRating.unique"   } }
     ],
     // Dynamic color by damage rating (percents for marks on gun)
-    // Динамический цвет по рейтингу урона (процент для отметок на стволе)
     "damageRating": [
       { "value": 64.99, "color": ${"def.colorRating.very_bad"} }, // 0-64.99
       { "value": 84.99, "color": ${"def.colorRating.normal"  } }, // 65-84.99
@@ -338,7 +293,6 @@
       { "value": 100,   "color": ${"def.colorRating.unique"  } }  // 95-*
     ],
     // Dynamic color by hit ratio (percents of hits)
-    // Динамический цвет по проценту попаданий
     "hitsRatio": [
       { "value": 47.4, "color": ${"def.colorRating.very_bad" } },
       { "value": 60.4, "color": ${"def.colorRating.bad"      } },
