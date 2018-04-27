@@ -1,35 +1,26 @@
 ﻿/**
  * Special XVM hotkeys.
- * Специальные горячие клавиши XVM.
  */
 {
   "hotkeys": {
     // keycodes below.
-    // коды клавиш внизу файла.
     // onHold: false - take action by key click. true - while key is remains pressed.
-    // onHold: false - произвести действие по разовому нажатию клавиши. true - по удержанию.
     //
     // Minimap zooming.
-    // Увеличение миникарты.
     "minimapZoom":         { "enabled": true, "keyCode": 29, "onHold": true },
     // Minimap alternative mode.
-    // Альтернативный режим миникарты.
     "minimapAltMode":      { "enabled": true, "keyCode": 29, "onHold": true },
     // "Ears" (players panels) alternative mode.
-    // Альтернативный режим "ушей" (панелей игроков).
     "playersPanelAltMode": { "enabled": false, "keyCode": 56, "onHold": true },
     // Vehicle markers alternative mode.
-    // Альтернативный режим маркеров над танками.
     "markersAltMode":      { "enabled": true, "onHold": true },
     // Damage log alternative mode.
-    // Альтернативный режим лога полученного урона.
     "damageLogAltMode":    { "enabled": true, "keyCode": 56, "onHold": true }
   }
 }
 
 /*
   Keycodes:
-  Коды клавиш:
 
   MODIFIER_SHIFT = 1
   MODIFIER_CTRL = 2
