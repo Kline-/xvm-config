@@ -4,7 +4,7 @@
 {
   "camera": {
     // false - disable camera settings.
-    "enabled": false,
+    "enabled": true,
     // true - disable red flash when enemy hit your tank.
     "noFlashBang": false,
     // true - hide the tips about switching to siege mode and aiming mode changing in strategic mode.
