@@ -42,7 +42,7 @@
     "sniper": {
       // List of multiplicities for the sniper mode
       // Default: [ 2, 4, 8 ]. It's possible to use a greater number of values.
-      "zooms": [2, 4, 8],
+      "zooms": [2, 4, 8, 16, 25],
       // Start zoom value (null for default behavior - last used state)
       "startZoom": 2,
       // Zoom Indicator (see extra-field.txt for parameters description)
