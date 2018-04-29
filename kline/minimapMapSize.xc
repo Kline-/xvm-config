@@ -1,10 +1,8 @@
 ﻿/**
  * Textfield for map side size. 1000 m, 700 m, 600 m.
- * Поле размера стороны карты. Например, 1000 m, 700 m, 600 m.
  */
 {
   // The settings correspond to the extra fields parameters
-  // Настройки соответствуют параметрам дополнительных полей
   "mapSize": {
     "enabled": true,
     "x": 0,
