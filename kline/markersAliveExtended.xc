@@ -205,11 +205,19 @@
       "y": -67,          // Position on the Y axis
       "alpha": 100       // Opacity
     },
-    // Stun marker
-    "stunMarker": {
+    // Stun marker and consumables marker in "Frontline Returns" mode (smoke screen, morale boost, engineering crew)
+    "vehicleStatusMarker": {
       "enabled": true,   // false - disable
       "x": 0,            // Position on the X axis
       "y": -67,          // Position on the Y axis
+      "alpha": 100       // Opacity
+    },
+    // Damage indicator (ricochet, critical hit, ...)
+    "damageIndicator": {
+      "enabled": true,   // false - disable
+      "showText": true,  // false - show only icon
+      "x": 53,           // Position on the X axis
+      "y": -27,          // Position on the Y axis
       "alpha": 100       // Opacity
     },
     // Block of text fields (extended format supported, see extra-field.txt).
@@ -287,12 +295,20 @@
       "y": -67,
       "alpha": 100
     },
-    // Stun marker
-    "stunMarker": {
-      "enabled": true,
-      "x": 0,
-      "y": -67,
-      "alpha": 100
+    // Stun marker and consumables marker in "Frontline Returns" mode (smoke screen, morale boost, engineering crew)
+    "vehicleStatusMarker": {
+      "enabled": true,   // false - disable
+      "x": 0,            // Position on the X axis
+      "y": -67,          // Position on the Y axis
+      "alpha": 100       // Opacity
+    },
+    // Damage indicator (ricochet, critical hit, ...)
+    "damageIndicator": {
+      "enabled": true,   // false - disable
+      "showText": true,  // false - show only icon
+      "x": 53,           // Position on the X axis
+      "y": -27,          // Position on the Y axis
+      "alpha": 100       // Opacity
     },
     // Block of text fields (extended format supported, see extra-field.txt).
     "textFields": [

@@ -71,8 +71,6 @@
       // Y offset
       "offsetY": 0
     },
-    // true - use credits instead of gold as default currency for ammo and equipment
-    "defaultBoughtForCredits": true,
     // true - enable removable equipment auto return (Camouflage net, Stereoscope, Toolbox)
     "enableEquipAutoReturn": true,
     // true - make vehicle not ready for battle if low ammo
