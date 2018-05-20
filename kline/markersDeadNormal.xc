@@ -44,6 +44,7 @@
       "blowupMessage": "{{l10n:blownUp}}\n{{dmg}}"
     }
   },
+  // Settings for allies.
   "ally": {
     // Type of vehicle icon (HT/MT/LT/TD/Arty).
     "vehicleIcon": {
@@ -63,6 +64,7 @@
       // Offset along the Y axis (?)
       "offsetY": 0
     },
+    // Health indicator.
     "healthBar": {
       "enabled": false,
       "x": -41,
@@ -72,14 +74,17 @@
       "lcolor": null,
       "width": 80,
       "height": 12,
+      // Substrate and frame parameters.
       "border": {
         "alpha": 30,
         "color": "0x000000",
         "size": 1
       },
+      // Parameters of the remaining health.
       "fill": {
         "alpha": 30
       },
+      // Decreasing HP animation parameters.
       "damage": {
         "alpha": 80,
         "color": null,
@@ -142,6 +147,7 @@
     // Block of text fields (extended format supported, see extra-field.txt).
     "textFields": []
   },
+  // Settings for enemies.
   "enemy": {
     // Type of vehicle icon (HT/MT/LT/TD/Arty).
     "vehicleIcon": {
@@ -154,6 +160,7 @@
       "offsetX": 0,
       "offsetY": 0
     },
+    // Health indicator.
     "healthBar": {
       "enabled": false,
       "x": -41,

@@ -12,7 +12,7 @@
       // Subject has stock turret and top gun can be mounted. Subject is somewhat vulnerable.
       "lowVulnerability": "'"
     },
-    // ally
+    // Settings for allies.
     "ally": {
       "alive": {
         "normal": ${"markersAliveNormal.xc":"ally"},
@@ -23,7 +23,7 @@
         "extended": ${"markersDeadExtended.xc":"ally"}
       }
     },
-    // enemy
+    // Settings for enemies.
     "enemy": {
       "alive": {
         "normal": ${"markersAliveNormal.xc":"enemy"},

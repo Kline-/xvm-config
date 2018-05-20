@@ -125,6 +125,7 @@
       "format": "{{r}}"
     }
   },
+  // Settings for allies.
   "ally": {
     // Type of vehicle icon (HT/MT/LT/TD/Arty).
     "vehicleIcon": {
@@ -144,6 +145,7 @@
       // Offset along the Y axis (?)
       "offsetY": 0
     },
+    // Health indicator.
     "healthBar": {
       "enabled": true,
       "x": -36,
@@ -153,14 +155,17 @@
       "lcolor": null,
       "width": 70,
       "height": 12,
+      // Substrate and frame parameters.
       "border": {
         "alpha": 35,
         "color": "0x000000",
         "size": 1
       },
+      // Parameters of the remaining health.
       "fill": {
         "alpha": 45
       },
+      // Decreasing HP animation parameters.
       "damage": {
         "alpha": 80,
         "color": null,
@@ -227,6 +232,7 @@
       ${ "def.rating" }
     ]
   },
+  // Settings for enemies.
   "enemy": {
     // Type of vehicle icon (HT/MT/LT/TD/Arty).
     "vehicleIcon": {
@@ -239,6 +245,7 @@
       "offsetX": 0,
       "offsetY": 0
     },
+    // Health indicator.
     "healthBar": {
       "enabled": true,
       "x": -36,
