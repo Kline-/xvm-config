@@ -38,7 +38,7 @@
     "gameVersion": "1.0.1.1",
 
     // The minimum required version of the XVM mod.
-    "modMinVersion": "7.6.1"
+    "modMinVersion": "7.6.2"
   },
 
   // Parameters for login screen.
