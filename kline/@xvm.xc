@@ -32,13 +32,13 @@
     "url": "https://github.com/Kline-/xvm-config/",
 
     // Config last modified.
-    "date": "20.05.2018",
+    "date": "28.05.2018",
 
     // Supported version of the game.
     "gameVersion": "1.0.1.1",
 
     // The minimum required version of the XVM mod.
-    "modMinVersion": "7.6.2"
+    "modMinVersion": "7.6.3"
   },
 
   // Parameters for login screen.

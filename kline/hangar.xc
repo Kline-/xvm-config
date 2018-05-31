@@ -92,6 +92,8 @@
     "barracksShowFlags": true,
     // true - show skills in barracks
     "barracksShowSkills": true,
+    // true - restore selected battle type on switching to another server (only random, frontline and rank battle modes)
+    "restoreBattleType": true,
     // Ping servers
     "pingServers": {
       // true - enable display of ping to the servers
@@ -146,11 +148,11 @@
           "poor":  "0x96948F",
           "bad":   "0xD64D4D"
         },
-        // Mark current server in the list, possible options: "none" (don't mark), "normal", "bold", "italic", "underline"
-        "markCurrentServer": "bold",
         // Color for server name and delimiter (for example, "0x8080FF"). Empty string "" - use same color as online value
         "serverColor": ""
       },
+      // Text format for current server in the list, Flash HTML tags supported. "{server}" for the server value
+      "currentServerFormat": "<b>{server}</b>",
       // Threshold values defining response quality
       "threshold": {
         // Below this value response is great

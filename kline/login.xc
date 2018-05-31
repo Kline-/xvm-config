@@ -9,6 +9,8 @@
     "autologin": false,
     // Auto confirm old replays playing
     "confirmOldReplays": false,
+    // Do not show the specified servers in the servers list, for example, ["RU1", "RU3"]
+    "disabledServers": [],
     // Ping servers
     "pingServers": {
       // true - enable display of ping to the servers
@@ -45,6 +47,8 @@
       "minimalValueLength": 0,
       // text to show in case of error
       "errorString": "--",
+      // List of ignored servers, for example, ["RU1", "RU3"]
+      "ignoredServers": [],
       // Text style
       "fontStyle": {
         // Font name
@@ -117,6 +121,8 @@
       "minimalValueLength": 0,
       // text to show in case of error
       "errorString": "--k",
+      // List of ignored servers, for example, ["RU1", "RU3"]
+      "ignoredServers": [],
       // Text style
       "fontStyle": {
         // Font name

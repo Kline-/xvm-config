@@ -143,7 +143,29 @@
       "enginePowerPerTon",
       "speedLimits",
       "crewRolesIcons"
-    ]
+    ],
+    // List of tooltipId to hide
+    // Possible values can be found in this files: ingame_gui.mo, tooltips.mo (or INGAME_GUI.py, TOOLTIPS.py)
+    // or enable "logLocalization" option and search them in the xvm.log file
+    "hideTooltips": [
+      "#ingame_gui:dynamicSquad/ally/add",
+      "#ingame_gui:dynamicSquad/ally/disabled",
+      "#ingame_gui:dynamicSquad/ally/received",
+      "#ingame_gui:dynamicSquad/ally/wasSent",
+      "#ingame_gui:dynamicSquad/enemy/add",
+      "#ingame_gui:dynamicSquad/enemy/disabled",
+      "#ingame_gui:dynamicSquad/enemy/received",
+      "#ingame_gui:dynamicSquad/enemy/wasSent",
+      "#ingame_gui:dynamicSquad/invite",
+      "#tooltips:header/info/players_online_full/body",
+      "#tooltips:header/info/players_online_full/header",
+      "#tooltips:header/info/players_online_region/body",
+      "#tooltips:header/info/players_online_region/header",
+      "#tooltips:header/info/players_unavailable/body",
+      "#tooltips:header/info/players_unavailable/header"
+    ],
+    // Log all localization keys to the xvm.log file, can be helpful to search required tooltipId
+    "logLocalization": false
   }
 }
 
