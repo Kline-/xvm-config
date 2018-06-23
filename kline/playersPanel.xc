@@ -137,7 +137,7 @@
       "expandAreaWidth": 230,
       // true - disable platoon icons
       "removeSquadIcon": false,
-      // transparency of the squad icon
+      // Transparency of the squad icon
       "squadIconAlpha": 100,
       // Offset of X value for vehicle icon.
       "vehicleIconXOffsetLeft": 0,
@@ -145,7 +145,7 @@
       // Offset of X value for vehicle level.
       "vehicleLevelXOffsetLeft": 0,
       "vehicleLevelXOffsetRight": 0,
-      // transparency of vehicle level
+      // Transparency of vehicle level
       "vehicleLevelAlpha": 100,
       // Offset of X value for frags column.
       "fragsXOffsetLeft": 0,
@@ -163,6 +163,8 @@
       "rankBadgeXOffsetRight": 0,
       // Width of the rank badge column. Default is 24.
       "rankBadgeWidth": 24,
+      // Transparency of the rank badge
+      "rankBadgeAlpha": "{{alive?100|70}}",
       // Offset of X value for player name column.
       "nickXOffsetLeft": 0,
       "nickXOffsetRight": 0,
@@ -221,7 +223,7 @@
       "expandAreaWidth": 230,
       // true - disable platoon icons
       "removeSquadIcon": false,
-      // transparency of the squad icon
+      // Transparency of the squad icon
       "squadIconAlpha": 100,
       // Offset of X value for vehicle icon.
       "vehicleIconXOffsetLeft": 0,
@@ -229,7 +231,7 @@
       // Offset of X value for vehicle level.
       "vehicleLevelXOffsetLeft": 0,
       "vehicleLevelXOffsetRight": 0,
-      // transparency of vehicle level
+      // Transparency of vehicle level
       "vehicleLevelAlpha": 100,
       // Offset of X value for frags column.
       "fragsXOffsetLeft": 0,
@@ -247,6 +249,8 @@
       "rankBadgeXOffsetRight": 0,
       // Width of the rank badge column. Default is 24.
       "rankBadgeWidth": 24,
+      // Transparency of the rank badge
+      "rankBadgeAlpha": "{{alive?100|70}}",
       // Offset of X value for player name column.
       "nickXOffsetLeft": 0,
       "nickXOffsetRight": 0,
@@ -304,7 +308,7 @@
       "expandAreaWidth": 230,
       // true - disable platoon icons
       "removeSquadIcon": false,
-      // transparency of the squad icon
+      // Transparency of the squad icon
       "squadIconAlpha": 100,
       // Offset of X value for vehicle icon.
       "vehicleIconXOffsetLeft": 0,
@@ -312,7 +316,7 @@
       // Offset of X value for vehicle level.
       "vehicleLevelXOffsetLeft": 0,
       "vehicleLevelXOffsetRight": 0,
-      // transparency of vehicle level
+      // Transparency of vehicle level
       "vehicleLevelAlpha": 100,
       // Offset of X value for frags column.
       "fragsXOffsetLeft": 0,
@@ -330,6 +334,8 @@
       "rankBadgeXOffsetRight": 0,
       // Width of the rank badge column. Default is 24.
       "rankBadgeWidth": 24,
+      // Transparency of the rank badge
+      "rankBadgeAlpha": "{{alive?100|70}}",
       // Offset of X value for player name column.
       "nickXOffsetLeft": 0,
       "nickXOffsetRight": 0,
@@ -385,7 +391,7 @@
       "standardFields": [ "frags", "badge", "nick", "vehicle" ],
       // true - disable platoon icons
       "removeSquadIcon": false,
-      // transparency of the squad icon
+      // Transparency of the squad icon
       "squadIconAlpha": 100,
       // Offset of X value for vehicle icon.
       "vehicleIconXOffsetLeft": 0,
@@ -393,7 +399,7 @@
       // Offset of X value for vehicle level.
       "vehicleLevelXOffsetLeft": 0,
       "vehicleLevelXOffsetRight": 0,
-      // transparency of vehicle level
+      // Transparency of vehicle level
       "vehicleLevelAlpha": 100,
       // Offset of X value for frags column.
       "fragsXOffsetLeft": 0,
@@ -411,6 +417,8 @@
       "rankBadgeXOffsetRight": 0,
       // Width of the rank badge column. Default is 24.
       "rankBadgeWidth": 24,
+      // Transparency of the rank badge
+      "rankBadgeAlpha": "{{alive?100|70}}",
       // Offset of X value for player name column.
       "nickXOffsetLeft": 0,
       "nickXOffsetRight": 0,

@@ -7,8 +7,14 @@
     "showBuyPremiumButton": true,
     // Show "Premium shop" button
     "showPremiumShopButton": true,
+    // Show "Create squad" text on the squad creation button
+    "showCreateSquadButtonText": true,
+    // Show selected battle mode text
+    "showBattleTypeSelectorText": true,
     // Show "General chat" button
     "showGeneralChatButton": true,
+    // false - disable display promo of premium vehicle (on the background in the hangar)
+    "showPromoPremVehicle": true,
     // true - enable locker for gold
     "enableGoldLocker": true,
     // true - enable locker for free XP
@@ -221,10 +227,10 @@
         "italic": false,
         // Different colors depending on people online
         "color": {
-          "great": "0x60ff00",
-          "good":  "0xF8F400",
-          "poor":  "0xFE7903",
-          "bad":   "0xFE0E00"
+          "great": "0xFFCC66",
+          "good":  "0xE5E4E1",
+          "poor":  "0x96948F",
+          "bad":   "0xD64D4D"
         },
         // Mark current server in the list, possible options: "none" (don't mark), "normal", "bold", "italic", "underline"
         "markCurrentServer": "bold",
@@ -248,6 +254,13 @@
         "blur": 4,
         "strength": 2
       }
+    },
+    // Show/hide notifications counters in the main menu
+    "notificationCounter": {
+      "store": true,                        // Store
+      "missions": true,                     // Missions
+      "profile": true,                      // Service Record
+      "PersonalMissionOperationsPage": true // Campaigns
     },
     // Parameters for tank carousel
     "carousel": ${"carousel.xc":"carousel"},

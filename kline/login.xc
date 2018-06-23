@@ -19,7 +19,7 @@
       "updateInterval": 10000,
       // Axis field coordinates
       "x": 5,
-      "y": 30,
+      "y": 40,
       // Horizontal alignment of field at screen ("left", "center", "right").
       "hAlign": "left",
       // Vertical alignment of field at screen ("top", "center", "bottom").
@@ -93,7 +93,7 @@
       "enabled": false,
       // Axis field coordinates
       "x": -5,
-      "y": 30,
+      "y": 40,
       // Horizontal alignment of field at screen ("left", "center", "right").
       "hAlign": "right",
       // Vertical alignment of field at screen ("top", "center", "bottom").
@@ -132,10 +132,10 @@
         "italic": false,
         // Different colors depending on people online
         "color": {
-          "great": "0x60ff00",
-          "good": "0xF8F400",
-          "poor": "0xFE7903",
-          "bad": "0xFE0E00"
+          "great": "0xFFCC66",
+          "good": "0xE5E4E1",
+          "poor": "0x96948F",
+          "bad": "0xD64D4D"
         },
         // Color for server name and delimiter (for example, "0x8080FF"). Empty string "" - use same color as online value
         "serverColor": ""

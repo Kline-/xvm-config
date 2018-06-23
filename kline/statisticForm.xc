@@ -50,11 +50,11 @@
     // Width of "formatRightVehicle" field
     "vehicleFieldWidthRight": 250,
     // X offset for allies vehicle icons
-    "vehicleIconOffsetXLeft": 4,
+    "vehicleIconOffsetXLeft": 0,
     // X offset for enemies vehicle icons
     "vehicleIconOffsetXRight": 0,
     // X offset for allies frags
-    "fragsFieldOffsetXLeft": 5,
+    "fragsFieldOffsetXLeft": 0,
     // X offset for enemies frags
     "fragsFieldOffsetXRight": 0,
     // Width of frags field for allies
